@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00EB59A2AB3401200DEE744 /* ai_palApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5992AB3401200DEE744 /* ai_palApp.swift */; };
+		F00EB59C2AB3401200DEE744 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB59B2AB3401200DEE744 /* ContentView.swift */; };
+		F00EB59E2AB3401200DEE744 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00EB59D2AB3401200DEE744 /* Assets.xcassets */; };
+		F00EB5A12AB3401200DEE744 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00EB5A02AB3401200DEE744 /* Preview Assets.xcassets */; };
+		F00EB5A82AB3405F00DEE744 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5A72AB3405F00DEE744 /* AuthView.swift */; };
+		F00EB5AA2AB3408000DEE744 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5A92AB3408000DEE744 /* AuthViewModel.swift */; };
+		F00EB5AC2AB3409400DEE744 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5AB2AB3409400DEE744 /* AuthService.swift */; };
+		F00EB5AF2AB3459300DEE744 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F00EB5AE2AB3459300DEE744 /* GoogleService-Info.plist */; };
+		F00EB5B22AB3462C00DEE744 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = F00EB5B12AB3462C00DEE744 /* FirebaseAuth */; };
+		F00EB5B42AB3462C00DEE744 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = F00EB5B32AB3462C00DEE744 /* FirebaseFirestore */; };
+		F00EB5B62AB3462C00DEE744 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F00EB5B52AB3462C00DEE744 /* FirebaseFirestoreSwift */; };
+		F00EB5B82AB3492300DEE744 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5B72AB3492300DEE744 /* AppState.swift */; };
+		F00EB5BB2AB3510200DEE744 /* ChatListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5BA2AB3510200DEE744 /* ChatListView.swift */; };
+		F00EB5BD2AB3511E00DEE744 /* ChatListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5BC2AB3511D00DEE744 /* ChatListViewModel.swift */; };
+		F00EB5C02AB35E1C00DEE744 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5BF2AB35E1C00DEE744 /* ChatView.swift */; };
+		F00EB5C32AB35E4800DEE744 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5C22AB35E4800DEE744 /* ProfileView.swift */; };
+		F00EB5C52AB35F7700DEE744 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00EB5C42AB35F7700DEE744 /* ChatViewModel.swift */; };
+		F00EB5C82AB3671E00DEE744 /* OpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = F00EB5C72AB3671E00DEE744 /* OpenAI */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F00EB5962AB3401200DEE744 /* ai_pal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ai_pal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00EB5992AB3401200DEE744 /* ai_palApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ai_palApp.swift; sourceTree = "<group>"; };
+		F00EB59B2AB3401200DEE744 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F00EB59D2AB3401200DEE744 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F00EB5A02AB3401200DEE744 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F00EB5A72AB3405F00DEE744 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F00EB5A92AB3408000DEE744 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F00EB5AB2AB3409400DEE744 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		F00EB5AE2AB3459300DEE744 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F00EB5B72AB3492300DEE744 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		F00EB5BA2AB3510200DEE744 /* ChatListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListView.swift; sourceTree = "<group>"; };
+		F00EB5BC2AB3511D00DEE744 /* ChatListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewModel.swift; sourceTree = "<group>"; };
+		F00EB5BF2AB35E1C00DEE744 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		F00EB5C22AB35E4800DEE744 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F00EB5C42AB35F7700DEE744 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00EB5932AB3401200DEE744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00EB5B22AB3462C00DEE744 /* FirebaseAuth in Frameworks */,
+				F00EB5B42AB3462C00DEE744 /* FirebaseFirestore in Frameworks */,
+				F00EB5C82AB3671E00DEE744 /* OpenAI in Frameworks */,
+				F00EB5B62AB3462C00DEE744 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00EB58D2AB3401200DEE744 = {
+			isa = PBXGroup;
+			children = (
+				F00EB5982AB3401200DEE744 /* ai_pal */,
+				F00EB5972AB3401200DEE744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F00EB5972AB3401200DEE744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5962AB3401200DEE744 /* ai_pal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00EB5982AB3401200DEE744 /* ai_pal */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5AE2AB3459300DEE744 /* GoogleService-Info.plist */,
+				F00EB5992AB3401200DEE744 /* ai_palApp.swift */,
+				F00EB59B2AB3401200DEE744 /* ContentView.swift */,
+				F00EB5B72AB3492300DEE744 /* AppState.swift */,
+				F00EB5C12AB35E3200DEE744 /* Profile */,
+				F00EB5BE2AB35E0400DEE744 /* Chat */,
+				F00EB5B92AB350E100DEE744 /* ChatList */,
+				F00EB5AD2AB340A700DEE744 /* Authentication */,
+				F00EB59D2AB3401200DEE744 /* Assets.xcassets */,
+				F00EB59F2AB3401200DEE744 /* Preview Content */,
+			);
+			path = ai_pal;
+			sourceTree = "<group>";
+		};
+		F00EB59F2AB3401200DEE744 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5A02AB3401200DEE744 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F00EB5AD2AB340A700DEE744 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5A72AB3405F00DEE744 /* AuthView.swift */,
+				F00EB5A92AB3408000DEE744 /* AuthViewModel.swift */,
+				F00EB5AB2AB3409400DEE744 /* AuthService.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F00EB5B92AB350E100DEE744 /* ChatList */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5BA2AB3510200DEE744 /* ChatListView.swift */,
+				F00EB5BC2AB3511D00DEE744 /* ChatListViewModel.swift */,
+			);
+			path = ChatList;
+			sourceTree = "<group>";
+		};
+		F00EB5BE2AB35E0400DEE744 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5BF2AB35E1C00DEE744 /* ChatView.swift */,
+				F00EB5C42AB35F7700DEE744 /* ChatViewModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		F00EB5C12AB35E3200DEE744 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F00EB5C22AB35E4800DEE744 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00EB5952AB3401200DEE744 /* ai_pal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00EB5A42AB3401200DEE744 /* Build configuration list for PBXNativeTarget "ai_pal" */;
+			buildPhases = (
+				F00EB5922AB3401200DEE744 /* Sources */,
+				F00EB5932AB3401200DEE744 /* Frameworks */,
+				F00EB5942AB3401200DEE744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ai_pal;
+			packageProductDependencies = (
+				F00EB5B12AB3462C00DEE744 /* FirebaseAuth */,
+				F00EB5B32AB3462C00DEE744 /* FirebaseFirestore */,
+				F00EB5B52AB3462C00DEE744 /* FirebaseFirestoreSwift */,
+				F00EB5C72AB3671E00DEE744 /* OpenAI */,
+			);
+			productName = ai_pal;
+			productReference = F00EB5962AB3401200DEE744 /* ai_pal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00EB58E2AB3401200DEE744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F00EB5952AB3401200DEE744 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F00EB5912AB3401200DEE744 /* Build configuration list for PBXProject "ai_pal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F00EB58D2AB3401200DEE744;
+			packageReferences = (
+				F00EB5B02AB3462C00DEE744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				F00EB5C62AB3671E00DEE744 /* XCRemoteSwiftPackageReference "OpenAI" */,
+			);
+			productRefGroup = F00EB5972AB3401200DEE744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00EB5952AB3401200DEE744 /* ai_pal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00EB5942AB3401200DEE744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00EB5A12AB3401200DEE744 /* Preview Assets.xcassets in Resources */,
+				F00EB59E2AB3401200DEE744 /* Assets.xcassets in Resources */,
+				F00EB5AF2AB3459300DEE744 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00EB5922AB3401200DEE744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00EB5AA2AB3408000DEE744 /* AuthViewModel.swift in Sources */,
+				F00EB59C2AB3401200DEE744 /* ContentView.swift in Sources */,
+				F00EB5C32AB35E4800DEE744 /* ProfileView.swift in Sources */,
+				F00EB5BD2AB3511E00DEE744 /* ChatListViewModel.swift in Sources */,
+				F00EB5AC2AB3409400DEE744 /* AuthService.swift in Sources */,
+				F00EB5C02AB35E1C00DEE744 /* ChatView.swift in Sources */,
+				F00EB5BB2AB3510200DEE744 /* ChatListView.swift in Sources */,
+				F00EB5B82AB3492300DEE744 /* AppState.swift in Sources */,
+				F00EB59A2AB3401200DEE744 /* ai_palApp.swift in Sources */,
+				F00EB5C52AB35F7700DEE744 /* ChatViewModel.swift in Sources */,
+				F00EB5A82AB3405F00DEE744 /* AuthView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00EB5A22AB3401200DEE744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00EB5A32AB3401200DEE744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00EB5A52AB3401200DEE744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ai_pal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosKaucic.ai-pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F00EB5A62AB3401200DEE744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ai_pal/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iosKaucic.ai-pal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00EB5912AB3401200DEE744 /* Build configuration list for PBXProject "ai_pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00EB5A22AB3401200DEE744 /* Debug */,
+				F00EB5A32AB3401200DEE744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00EB5A42AB3401200DEE744 /* Build configuration list for PBXNativeTarget "ai_pal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00EB5A52AB3401200DEE744 /* Debug */,
+				F00EB5A62AB3401200DEE744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F00EB5B02AB3462C00DEE744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		F00EB5C62AB3671E00DEE744 /* XCRemoteSwiftPackageReference "OpenAI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MacPaw/OpenAI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F00EB5B12AB3462C00DEE744 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00EB5B02AB3462C00DEE744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		F00EB5B32AB3462C00DEE744 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00EB5B02AB3462C00DEE744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		F00EB5B52AB3462C00DEE744 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00EB5B02AB3462C00DEE744 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		F00EB5C72AB3671E00DEE744 /* OpenAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F00EB5C62AB3671E00DEE744 /* XCRemoteSwiftPackageReference "OpenAI" */;
+			productName = OpenAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F00EB58E2AB3401200DEE744 /* Project object */;
+}
